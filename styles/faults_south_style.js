@@ -5,7 +5,7 @@ var style_faults_south = function(feature, resolution){
     var value = ""
     var size = 0;
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: "rgba(69,69,69,1.0)", lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 9}),
+        stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 1}),
     })];
     if ("" !== null) {
         var labelText = String("");

@@ -1,6 +1,6 @@
 var size = 0;
 function categories_GEOunits(feature, value) {
-                switch(value) {case "NULL":
+                switch(value) {case "":
                     return [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: "rgba(0,0,0,1.0)", lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: "rgba(228,26,28,1.0)"})
     })];
